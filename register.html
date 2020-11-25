@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Group 1 Database Project</title>
+
+
+  <!-- Custom styles for this template -->
+  <link href="./styles/register.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <br><br><br><br><br>
+  <h1>Register Now</h1>
+  <br><br>
+  
+  <div class="container" id="FORM">
+    <form action="/action_page.php" method="post">
+        <input type="text" class="textFields" id="firstname" onkeypress="if(event.keyCode == 13) {addUser()}" placeholder="Enter First Name">
+        <br>
+        <input type="text" class="textFields" id="lastname" onkeypress="if(event.keyCode == 13) {addUser()}" placeholder="Enter Last Name">
+        <br>
+        <input type="text" class="textFields" id="email" onkeypress="if(event.keyCode == 13) {addUser()}" placeholder="Enter Email">
+        <br>
+        <input type="password" class="textFields" id="password" onkeypress="if(event.keyCode == 13) {addUser()}" placeholder="Enter Password">
+        <br>
+        <input type="password" class="textFields" id="conPsw" onkeypress="if(event.keyCode == 13) {addUser()}" placeholder="Re-enter Password">
+        <br>
+        <p id="addresult"></p>
+        
+        <button id="register" class="button" type="button" onclick="addUser();"><span> Register </span></button>
+        
+    </form>
+    
+    <a href="index.html">
+    <button >Back</button></a>
+    
+    <a href="register.html">
+  </div>
+</body>
+
+</html>

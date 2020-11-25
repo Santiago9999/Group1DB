@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Group 1 Database Project</title>
+
+  <script type="text/javascript" src="js/code.js"></script>
+
+  <!-- Custom styles for this template -->
+  <link href="./styles/signin.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <br><br><br><br><br>
+  <h1>Event Scheduler</h1>
+  <br><br>
+  
+  <div class="container" id="FORM">
+    <form action="\action.php" method="post"><label for="login"><b></b></label><br />
+    <input type="text" id="login" onkeypress="if(event.keyCode == 13) {doLogin();}" placeholder="Enter Email" /><br />
+    <label for="password"><b></b></label><br />
+    <input type="password" id="password" onkeypress="if(event.keyCode == 13) {doLogin();}" placeholder="Enter Password"/><br />
+    <p id="result"></p>
+    <button class="buttons" id="loginButton" onclick="doLogin();" type="button">Login</button></form>
+    <a href="register.html">
+    <button>Register</button></a>
+  </div>
+</body>
+
+</html>
